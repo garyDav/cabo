@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.content {
+  /* background: rgba(183,222,237,1);
+  background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 51%, rgba(113,206,239,1) 76%, rgba(183,222,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(51%, rgba(33,180,226,1)), color-stop(76%, rgba(113,206,239,1)), color-stop(100%, rgba(183,222,237,1)));
+  background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 51%, rgba(113,206,239,1) 76%, rgba(183,222,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 51%, rgba(113,206,239,1) 76%, rgba(183,222,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 51%, rgba(113,206,239,1) 76%, rgba(183,222,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 51%, rgba(113,206,239,1) 76%, rgba(183,222,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 ); */
+  background-image: url("../img/fondo-content.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em 0;
+}
+
+h1 {
+  margin: 0 0 1.5em 0;
+}
+
+.cont {
+  margin: auto;
+  width: 90%;
+}
+.target {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-template-areas: "img info" "more info";
+}
+.img1 {
+  max-width: 100%;
+  margin: auto;
+  grid-area: img;
+}
+.img1 img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.info {
+  width: 100%;
+  background-image: url("../img/fondo-text.jpg");
+  /* background-image: url("../img/img2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2d85e6;
+  grid-area: info;
+  border-radius: 10px;
+  box-shadow: 3px 5px 14px -1px rgba(0,0,0,0.75);
+}
+
+.text {
+  font-size: 1.1em;
+  /* background-color: #2d85e63d;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: justify; */
+}
+
+.more-info {
+  width: 100%;
+  background-image: url("../img/m-text-large2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #2d85e6; */
+  border-radius: 10px;
+  border: 2px solid #3d3d3d;
+  grid-area: more;
+}
+
+.marbot {
+  margin-bottom: 2px;
+}
+.mar0 {
+  margin: 0;
+}
+.marlefrig {
+  margin: auto 15px;
+}
+.florig {
+  float: right;
+}
+.justify {
+  text-align: justify;
+}
+
+@media (max-width: 760px) {
+  .style-text-10 {
+    font-size: 2em !important;
+  }
+  .cont {
+    margin: auto;
+    width: 95%;
+  }
+  .target {
+    grid-template-columns: 1fr;
+    grid-template-areas: "img" "info" "more";
+    grid-gap: 15px;
+  }
+}
+
+.style-text-00 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.style-text-0 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.style-text-1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1em;
+}
+.style-text-2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.3em;  
+}
+.style-text-3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.1em;
+}
+.style-text-4 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.style-text-4-size {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.style-text-5 {
+  font-family: 'Sacramento', cursive;
+}
+.style-text-6 {
+  font-family: 'Niconne', cursive;
+}
+.style-text-7 {
+  font-family: 'Rochester', cursive;
+}
+.style-text-8 {
+  font-family: 'IM Fell DW Pica', serif;
+}
+.style-text-9 {
+  font-family: 'Gravitas One', cursive;
+}
+.style-text-10 {
+  font-family: 'IM Fell English', serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.both {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
