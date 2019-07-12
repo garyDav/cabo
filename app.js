@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.join(__dirname)));
 
 app.get('*', function (req, res, next) {
-  res.sendFile(__dirname + 'index.html');
+  res.sendFile(path.join(__dirname , 'index.html'));
 });
 
 
