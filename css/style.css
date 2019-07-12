@@ -111,6 +111,14 @@ h1 {
   }
 }
 
+a {
+  color: #0b0e2f;
+  text-decoration: none; /* no underline */
+}
+a:hover {
+  color: #1A237E;
+}
+
 .style-text-00 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
